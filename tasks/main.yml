@@ -6,6 +6,6 @@
     dest: /home/ubuntu/prerender
     version: master
 - name: run npm install in prerender dir
-  command: /usr/bin/npm
+  command: /usr/bin/npm install
   args:
     chdir: /home/ubuntu/prerender
