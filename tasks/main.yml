@@ -3,5 +3,9 @@
 - name: git clone prerender project to home dir
   git:
     repo: https://github.com/prerender/prerender.git
-    dest: /home/ubuntu
+    dest: /home/ubuntu/prerender
     version: master
+- name: run npm install in prerender dir
+  command: /usr/bin/npm
+  args:
+    chdir: /home/ubuntu/prerender
