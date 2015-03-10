@@ -1,0 +1,7 @@
+---
+# tasks file for prerender
+- name: git clone prerender project to home dir
+  git:
+    repo: https://github.com/prerender/prerender.git
+    dest: /home/ubuntu
+    version: master
