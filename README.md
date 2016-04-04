@@ -26,5 +26,4 @@ Including an example of how to use your role (for instance, with variables passe
 
 License
 -------
-
-MIT
+The source code is licensed under GPL v3.
